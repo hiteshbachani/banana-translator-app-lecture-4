@@ -12,7 +12,7 @@ function clickEventHandler(){
     console.log(outputDivinnertext)
 }
 
-var outputDiv = document.querySelector(#output);
+var outputDiv = document.querySelector("#output");
 outputDivinnertext = "Hitesh Bachani";
 // 
 
