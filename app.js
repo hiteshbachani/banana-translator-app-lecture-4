@@ -9,7 +9,7 @@ btnTranslate.addEventListener("click", clickEventHandler);
 function clickEventHandler(){
     console.log("clicked!");
     console.log(txtinput.value);
-    console.log(outputDivinnertext="Hitesh Bachani");
+    console.log(outputDivinnertext)
 }
 
 var outputDiv = document.querySelector(#output);
