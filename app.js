@@ -2,7 +2,7 @@
 // alert("this script works") + userName;
 
 var btnTranslate = document.querySelector("#btn-translate");
-btnTranslate.addEventListener("cli", clickEventHandler);
+btnTranslate.addEventListener("click", clickEventHandler);
 
 function clickEventHandler(){
     console.log("clicked!");
