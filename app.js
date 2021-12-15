@@ -8,4 +8,7 @@ function clickEventHandler(){
     console.log("clicked!");
 }
 
+var txtinput = document.querySelector("#txt-input");
+console.log(txtinput);
+
 
