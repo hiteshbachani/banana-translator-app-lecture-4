@@ -5,7 +5,7 @@ console.log("script is working from a different file.")
 
 var btnTranslate = document.querySelector("#btn-translate")
 
-function clickEventHandler (){
+function clickEventHandler (click){
     console.log("clicked")
 }
 
