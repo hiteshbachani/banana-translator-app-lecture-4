@@ -3,16 +3,25 @@
 
 var btnTranslate = document.querySelector("#btn-translate");
 var txtinput = document.querySelector("#txt-input"); 
+var serverURL="https://api.funtranslations.com/translate/minion.json"
 
-btnTranslate.addEventListener("click", clickEventHandler);
-
-function clickEventHandler(){
-    console.log("clicked!");
-    console.log(txtinput.value);
-    console.log(outputDivinnertext)
+function getTranslationURL(input){
+    return serverURL + '?' + 'text=' + input
 }
 
-var outputDiv = document.querySelector("#output");
-outputDivinnertext = "Hitesh Bachani";
-// 
 
+
+
+function clickEventHandler(){
+   var inputText = 'txtInput.value';
+}
+
+fetch(getTranslationURL(inputText))
+.then(response => response.json())
+.then(json => {
+    var translatedText = json.contents.translated; 
+    outputDiv.innerText = translatedText;
+})
+
+
+btnTranslate.addEventListener("click", clickEventHandler);
