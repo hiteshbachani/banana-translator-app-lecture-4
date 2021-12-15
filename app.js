@@ -9,6 +9,5 @@ function clickEventHandler(){
     console.log(txtinput.value);
 }
 
-var txtinput = document.querySelector("#txt-input");
- console.log(txtinput);
+// var txtinput = document.querySelector("#txt-input");
 
