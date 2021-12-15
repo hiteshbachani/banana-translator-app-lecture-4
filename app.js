@@ -6,7 +6,7 @@ btnTranslate.addEventListener("click", clickEventHandler);
 
 function clickEventHandler(){
     console.log("clicked!");
-    console.log("input", txtinput.value);
+    console.log("input", txtinput);
 }
 
 var txtinput = document.querySelector("#txt-input");
