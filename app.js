@@ -6,15 +6,15 @@ var txtinput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
 var serverURL="https://api.funtranslations.com/translate/minion.json"
 
-function getTranslationURL(input){
+function getTranslationURL(input) {
     return serverURL + '?' + 'text=' + input
 }
 
 
 
 
-function clickEventHandler(){
-   var inputText = 'txtInput.value';
+function clickEventHandler() {
+   var inputText = 'txtinput.value';
 
 
 fetch(getTranslationURL(inputText))
