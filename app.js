@@ -14,7 +14,7 @@ function getTranslationURL(input) {
 
 
 function clickEventHandler() {
-   var inputText = 'txtinput.value';
+   var inputText = txtinput.value;
 
 
 fetch(getTranslationURL(inputText))
