@@ -14,7 +14,7 @@ function getTranslationURL(input){
 
 function clickEventHandler(){
    var inputText = 'txtInput.value';
-}
+
 
 fetch(getTranslationURL(inputText))
 .then(response => response.json())
@@ -22,6 +22,8 @@ fetch(getTranslationURL(inputText))
     var translatedText = json.contents.translated; 
     outputDiv.innerText = translatedText;
 })
+
+};
 
 
 btnTranslate.addEventListener("click", clickEventHandler);
