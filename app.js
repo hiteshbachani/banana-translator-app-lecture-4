@@ -28,3 +28,5 @@ fetch(getTranslationURL(inputText))
 
 
 btnTranslate.addEventListener("click", clickEventHandler);
+
+
