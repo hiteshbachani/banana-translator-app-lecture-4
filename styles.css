@@ -17,9 +17,24 @@ body { font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding: 2rem;
     margin-bottom: 5rem;
-    font-size: xx-large;
-     color: var(--black);
-     font-weight: bold; 
+}
+
+.nav-brand{
+    font-size: 3.25rem;
+    color: var(--black);
+    font-weight: bold; 
+}
+
+ .nav-pill {
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
+.link {
+    text-decoration: none;
+    color: var(--black);
 }
 
 
